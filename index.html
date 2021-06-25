@@ -1,0 +1,253 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contractors</title>
+  <link href="stylesheet.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"> </script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+
+  <script>"use strict"
+    $(document).ready(function(){
+      //setup tab control
+      $( function() {
+        $( "#visa" ).tabs();
+          });
+          $( function() {
+        $( "#emops" ).tabs();
+          });//function to set up accordian
+          $( function() {
+          $( "#forms" ).accordion();
+          } );
+        });
+  </script>
+</head>
+<body>
+  <div id="header">
+  <h1>Contractors</h1>
+  <h2>CultureFit's Contractor Resource & Protocol</h2>
+</div>
+
+<div id ="nav">
+  <a href="#visa">Visas | </a>
+  <a href="#emops">Employment Options | </a>
+  <a href="#goals">Our Goals | </a>
+  <a href="#process">Our Process | </a>
+  <a href="#forms">Our Forms | </a>
+  <a href="#offer">Offer | </a>
+  <a href="#next">Next Steps </a>
+</div>
+
+  <div id="visa">
+    <h2>Visas</h2>
+    <ul>
+      <li><a href="#opt">OPT/F1</a></li>
+      <li><a href="#h1b">H1B</a></li>
+      <li><a href="#h1bc">H1B(Employed)</a></li>
+      <li><a href="#ead">EAD/ Green Card</a></li>
+      <li><a href="#tn">TN Visa</a></li>
+      <li><a href="#citizen">US Citizen</a></li>
+    </ul>
+
+    <div id="opt">
+      <h2>OPT/ F1</h2>
+      <p>This is a Student Visa. They need sponsorship.</p>
+      <hr>
+      <p>It’s important to understand if these contractors are independent or under some other company’s control.  If they have an employer (meaning their visa is held by a third party organization) all negotiations must be done through their employer (we sometimes call them “keepers”).  These candidates are W2 employees of their employers and they are considered C2C employees to us. </p>
+    </div>
+    
+
+    <div id="h1b">
+      <h2>H1B</h2>
+      <p>They must be sponsored by an employer!</p>
+      <p>Ultimately, the recruiter will negotiate the hourly rate through the employer <strong>(note: not the individual candidate).</strong></p>
+      <hr>
+      <p>It’s important to understand if these contractors are independent or under some other company’s control.  If they have an employer (meaning their visa is held by a third party organization) all negotiations must be done through their employer (we sometimes call them “keepers”).  These candidates are W2 employees of their employers and they are considered C2C employees to us. </p>
+    </div>
+
+    <div id="h1bc">
+      <h2>H1B- Employed by Company</h2>
+      <p>Usually not the best fit for our roles.</p>
+      <p>Their visas would need to be transferred.</p>
+      <hr>
+      <p>It’s important to understand if these contractors are independent or under some other company’s control.  If they have an employer (meaning their visa is held by a third party organization) all negotiations must be done through their employer (we sometimes call them “keepers”).  These candidates are W2 employees of their employers and they are considered C2C employees to us. </p>
+    </div>
+
+    <div id="ead">
+      <h2>EAD/ Green Card</h2>
+      <h3>Person may or may not have an employer.</h3>
+      <p>Some candidates still have an obligation to their employer, others do not <strong>(note: need to find out what type of EAD they are)</strong>. It could mean they need sponsorship or they could just be waiting for their Green Card</p>
+      <hr>
+      <p>It’s important to understand if these contractors are independent or under some other company’s control.  If they have an employer (meaning their visa is held by a third party organization) all negotiations must be done through their employer (we sometimes call them “keepers”).  These candidates are W2 employees of their employers and they are considered C2C employees to us. </p>
+    </div>
+    <div id="tn">
+      <h2>TN Visa</h2>
+      <p>Mexican or Canadian type of visa and treat this like a Green Card or US Citizen.</p>
+      <hr>
+      <p>It’s important to understand if these contractors are independent or under some other company’s control.  If they have an employer (meaning their visa is held by a third party organization) all negotiations must be done through their employer (we sometimes call them “keepers”).  These candidates are W2 employees of their employers and they are considered C2C employees to us. </p>
+    </div>
+    <div id="citizen">
+      <h2>U.S. Citizen</h2>
+      <h3>Be Cautious.</h3>
+      <p>On rare occasions, these people may work for an agency, which is questionable. <strong>U.S. Citizens should be talented enough to find work rather than working through agencies.</strong></p>
+      <hr>
+      <p>It’s important to understand if these contractors are independent or under some other company’s control.  If they have an employer (meaning their visa is held by a third party organization) all negotiations must be done through their employer (we sometimes call them “keepers”).  These candidates are W2 employees of their employers and they are considered C2C employees to us. </p>
+    </div>
+  </div>
+  <div id="emops">
+    <h2>Employment Options</h2>
+    <ul>
+      <li><a href="#1099">1099</a></li>
+      <li><a href="#c2c">C2C</a></li>
+      <li><a href="#w2">W2</a></li>
+    </ul>
+
+    <div id="1099">
+      <h2><strong>1099</strong></h2>
+      <p> this is used in short-term contracts, we don’t like to go over a 4-month contract utilizing this option.  This type of contract means that the tax obligations are solely the responsibility of the contractor and CultureFit will send them a 1099 form at the end of the calendar year. </p>
+      <hr>
+      <h3>Example:</h3>
+      <p> In short, if your candidate is making $25/hour, and they work 40-hours in a week, the contractor will get paid through CultureFit a total of $1,000.00/week (of which, no taxes will be taken out).  Having this type of contract is a benefit to CultureFit, because we do not have to pay the costs of carrying another employee.</p>
+    </div>
+    
+    <div id="c2c">
+    <h2><strong>C2C | Corp-to-Corp</strong></h2>
+    <p>The candidate is incorporated meaning the candidate has his/her own company.  The H1 candidates are W2 employees and we are sub-contracting their services corporation to corporation.  Besides H1 candidates, many contractors incorporate themselves and get paid C2C (these candidates can be Green Card or US Citizens).</p>  
+    
+    <p>This situation is very beneficial to CultureFit.  It can be long-term, and we do not have to pay the cost of carrying another employee. 
+    </p>
+  </div>
+  <div id="w2">
+    <h2><strong>W2</strong></h2>
+    <p> When hiring these contractors, we take on the costs of having another employee.  These are not as financially beneficial and should only be used when absolutely needed and in cases of longer contracts when the contractor is not incorporated.</p>  
+    <p>We are at risk for having to pay unemployment if they are fired, benefits, etc. </p>
+    <p><strong>Rates need to be adjusted in order to carry the cost of these types of contractors.  W2 employees have to fill out a Federal W-4, IL W-4, 1-9, and a W2 employee contract agreement</strong></p>
+  </div>
+  </div>
+
+  <div id="goals">
+  <h2> Our Goals</h2>
+ 
+  <ol>
+    <li>Matching the best candidates with our Client's Roles.</li>
+    <li>Making Money.</li>
+    <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+      <li style="margin-left:2em">Differences in profit margin has a huge impact on commission payouts to employees and the overall profitability of CultureFit.</li>
+  </ol>
+  <h3>Examples of Profitability:</h3>
+
+  <div id="ex1">
+    
+    <h3>$25/hr</h3>
+    <p>CultureFit’s profit margin on a contract employee is $25/hour, the contractor works 40 hours per week for a 6 month contract.</p>
+    <p>Total Profit: $26,000.00</p>
+    <h3><strong>Your Potential Commission:</strong></h3>
+    <ul>
+      <li>Tier 1: $1,300.00</li>
+      <li>Tier 4: $4,420.00</li>
+    </ul>
+  </div>
+  <div id="ex2">
+    <h3>$35/hr</h3>
+    <p>CultureFit’s profit margin on a contract employee is $35/hour, the contractor works 40 hours per week for a 6 month contract.</p>
+    <p>Total Profit: $36,400.00</p>
+    <h3><strong>Your Potential Commission:</strong></h3>
+    <ul>
+      <li>Tier 1: $1,820.00</li>
+      <li>Tier 4: $6,188.00</li>
+    </ul>
+  </div>
+  
+  <div id="w2s">
+    <h2>W2 Contractors</h2>
+    <p>Contractor identification is key.  W2 employees cost CultureFit money.  That cost must be made up in their hourly rate.</p>
+    <p><strong>As a rule of thumb, the cost is an additional 20% to CultureFit.  If the candidate wants health benefits, it's an an additional 30% to CultureFit!</strong></p>
+    <hr>
+    <p></p>
+  </div>
+</div>
+<div id="process">
+  <h2>Our Process</h2>
+ 
+  <ol>
+    <li>Negotiate with the Candidate</li>
+    <li>Send them the correct contract agreement to sign (Rachel will customize prior to sending)</li>
+    <li>Upon reciept of the signed agreement, place in candidate documents within Tracker-RMS.</li>
+    <li>Submit to the salesperson</li>
+    <li>In the case of the 1099 and C2C, the specifically-tailored agreements should be sent and signed by the prospective candidate.</li>
+    <li><strong>When working with 3rd parties, send the agreements to the EMPLOYER of the candidate.</strong></li>
+    <li>After the candidate is hired, these documents must be executed immediately</li>
+    <li>Send the correct tax forms for the candidate to sign and send back. </li>
+    <li>Attach documents to the candidate profile in the documentation section of Tracker-RMS.</li>
+    <li>Send all documents to Rachel, Adam, and the Salesperson.</li>
+  </ol>
+</div>
+  <div id="forms">
+    <h3>W2 Contractor</h3>
+    <div><p>
+      <ol>
+        <li>Federal W4</li>
+        <li>I9</li>
+        <li>llinois W4</li>
+        <li>W2 Contractor Agreement</li>
+          </ol>
+        </p>
+        <p><a href="mailto:rjacobsen@culturefit.com?subject=W2 Contractor Forms and Agreement&body=Please send me the Federal W9, I9, Illinois W4, and a tailored Contractor Agreement for a W2 Contractor as well as a benefits guide.">Click here to get forms.</a></p>      </div>
+    <h3>C2C Contractor</h3>
+    <div><p>
+      <ol>
+        <li>Federal W9</li>
+        <li>Contractor Agreement</li>
+          </ol>
+        </p>
+        <p><a href="mailto:rjacobsen@culturefit.com?subject=C2C Contractor Forms and Agreement&body=Please send me the Federal W9 and a tailored Contractor Agreement for a C2C Contractor.">Click here to get forms.</a></p>
+      </div>
+      <h3>1099 Contractor</h3>
+    <div><p>
+      <ol>
+        <li>Federal W9</li>
+        <li>Contractor Agreement</li>
+          </ol>
+        </p>
+        <p><a href="mailto:rjacobsen@culturefit.com?subject=1099 Contractor Forms and Agreement&body=Please send me the Federal W9 and a tailored Contractor Agreement for a 1099 Contractor.">Click here to get forms.</a></p>      </div>
+  </div>
+
+  <div id="offer">
+    <h2>Offer Email</h2>
+    <h3>Congrats, CONTRACTOR!</h3>
+    <p>On behalf of CultureFit Technology Staffing, I am pleased to extend you the offer for the POSITION at COMPANY.  Please sign and return the attached document so we can start your onboarding process.  Your start date is TBD, but will probably be Monday, DATE.  We will have further reporting details to you soon.</p>
+    <p>If you have any questions please reach out to me, YOUR NAME (EMAIL), NAME OF SALESPERSON (EMAIL), and our office manager, Rachel (rjacobsen@culturefit.com).  We are very excited for you!  Please give me a call or reply to this email to confirm receipt of this email. </p>
+    <p>Best!</p>
+    <p>NAME</p>
+
+    <p><strong>Please tailor all capitalized words if you copy the above:</strong>
+      <ul>
+        <li>Contractor's Name</li>
+        <li>Recruiter's Name & contact information</li>
+        <li>Salesperson's Name & contact information</li>
+        <li>Rachel's contact information</li>
+        <li>Applicable Start Date and Day One Details</li>
+        <li>Position & Company</li>
+      </ul>    
+  </div>
+<div id="nextsteps">
+  <h2>After reciept of signed paperwork,</h2>
+  <ol>
+    <li>Eric, Adam, or Judi will execute signatures between CultureFit and Candidate/ Corporation (client dependent)</li>
+    <li><a href="mailto:akooperman@culturefit.com&cc:rjacobsen@culturefit.com?subject=Signed Contractor Paperwork&body=Please see the attached documentation for CONTRACTOR NAME">Send all paperwork to Adam as early as possible before the contractor's start date</a></li>
+    <li>Direct deposit is strongly encouraged for W2 contractors.  Please ask the contractor to scan or email a voided check.*</li>
+    <li>Follow up with contractor, introduce Rachel, and send Time Card** to the contractor.</li>
+  
+
+  </ol>
+  <p><strong>* Direct Deposit is only available for W2 Contractors</strong></p>
+  <p><strong>** Time Cards must be signed and returned to the recruiter, salesperson, and Rachel on the Friday or following Monday of the week worked.</strong></p>
+
+</div>
+</body>
+</html>

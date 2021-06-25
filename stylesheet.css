@@ -1,0 +1,231 @@
+body{
+  background-color: rgb(142, 174, 202);
+}
+a:active{
+  color: #00395B;
+}
+a:hover{
+  color: #FFA24D;
+}
+a:visited{
+  color:#393939
+}
+a:link{
+  color: #037BC1;
+
+}
+@font-face {
+  font-family: latoblack;
+  src: url("miscellanious/lato/Lato-Black.ttf");
+  color: white;
+}
+@font-face {
+  font-family: latolight;
+  src: url("miscellanious/lato/Lato-Light.ttf");
+  color: white;
+}
+div#header{
+  background-color: #00395B;
+  text-align: center;
+  font-family: latoblack;
+  color: white;
+  size: large;
+  height: 200px;
+  padding-top: 40px;
+}
+div#nav{
+  background-color: white;
+  font-family: latoblack;
+  text-align: center;
+  width: auto;
+  height: 30px;
+  border: 20px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+div#visa{
+  margin-top:50px;
+  position: relative;
+  border-radius: 20px;
+  max-block-size: 500px;
+  max-width: 700px;
+  font-family:latolight;
+  background-color: rgb(255, 255, 255);
+  color: #00395B;
+  float: left;
+  overflow: scroll;
+  margin-bottom: auto;
+  margin-left:100px;
+
+}
+div#opt{
+  color: #00395B;
+  overflow: scroll;
+  font-family: latolight;
+}
+div#h1b{
+  color: #00395B;
+  overflow: scroll;
+  font-family: latolight;
+
+}
+div#h1bc{
+  color: #00395B;
+  overflow: scroll;
+  font-family: latolight;
+}
+div#ead{
+  color: #00395B;
+  overflow: scroll;
+  font-family: latolight;
+}
+div#tn{
+  color: #00395B;
+  overflow: scroll;
+  font-family: latolight;
+}
+div#citizen{
+  color: #00395B;
+  overflow: scroll;
+  font-family: latolight;
+}
+
+div#emops{
+  max-width: 600px;
+  position: relative;
+  background-color: white;
+  margin-top: 50px;
+  float: left;
+  font-family: latolight;
+  color:#393939;
+  border-radius: 20px;
+  overflow: scroll;
+  margin-left:100px;
+}
+div#goals{
+  position: relative;
+  margin-top: 50px;
+  width: 650px;
+  height: 700px;
+  background-color:#00395B;
+  color:white;
+  float: left;
+  margin-left:100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: latolight;
+  border-radius: 20px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+div#ex1{
+  position: relative;
+  float: left;
+  background-color: white;
+  width: 250px;
+  height: auto;
+  align-content: center;
+  color: #00395B;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-right: 50px;
+  text-align: left;
+  overflow: scroll;
+  padding-bottom: 10px;
+
+}
+div#ex2{
+  position: absolute;
+  background-color: white;
+  float: left;
+  width: 250px;
+  height: auto;
+  align-content: center;
+  color: #00395B;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: left;
+  overflow: scroll;
+  margin-left: 290px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+div#w2s{
+  position: absolute;
+  float: left;
+  overflow: scroll;
+  width: 500px;
+  height: auto;
+  margin-top: 300px;
+
+}
+div#process{
+  position: relative;
+  border-radius: 10px;
+  background-color: white;
+  float: left;
+  width: 600px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  overflow: scroll;
+  font-family: latolight;
+  color:rgb(41, 41, 41)
+}
+div#forms{
+  position: relative;
+  float: left;
+  width: 700px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  font-family: latolight;
+  color:azure;
+  border-radius: 20px;
+}
+div#offer{
+  position: relative;
+  background-color: #ffffff;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  float: left;
+  width: 700px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  font-family: latolight;
+  color:#00395B;
+}
+div#nextsteps{
+  position: relative;
+  background-color: #ffffff;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  float: left;
+  width: 700px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  font-family: latolight;
+  color:#00395B;
+
+}
